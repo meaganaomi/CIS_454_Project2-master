@@ -1,0 +1,127 @@
+/* Style for body w/ soothing background image to calm the user's anxiety over their destroyed property */
+body{
+  margin: 0;
+  padding:0;
+  font-size: 30px;
+	background-image: url("../images/background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+  font-family: Tahoma Bold;
+}
+
+div.forgotPass{
+  font-size: 150%;
+  text-align: center;
+  margin-top: 18%;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  color: white;
+
+}
+
+/* Style for title div*/
+div.title{
+    font-size: 140%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    color: white;
+}
+
+/*General style for login div*/
+.login{
+    width: 320px;
+    height: 350px;
+    background: transparent;
+    color: #0f0;
+    box-sizing: border-box;
+    margin: 0 auto
+}
+
+/* Email box specific styling */
+.forgotPass input[type="email"]{
+    color: black;
+    font-size: 15px;
+    background: white;
+    outline: none;
+    height: 60px;
+    padding-left: 10px;
+    width: 20%;
+    border-radius: 20px
+}
+/* Submission button specific styling */
+.forgotPass input[type="submit"]{
+    width: 10%;
+    cursor: pointer;
+    font-size: 20px;
+    border-style: solid, segments(1, 2);
+    background: rgba(75,0,75,.8);
+    outline: none;
+    color: white;
+    font-weight: bold;
+    height: 60px;
+    border-radius: 20px;
+}
+
+/* Set width */
+.login input{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+/* Email box specific styling */
+.login input[type="email"]{
+    color: black;
+    font-size: 15px;
+    background: white;
+    outline: none;
+    height: 60px;
+    padding-left: 10px;
+}
+/* Password box specific styling */
+.login input[type="password"]{
+    font-size: 15px;
+    color: black;
+    background: white;
+    outline: none;
+    height: 60px;
+    padding-left: 10px;
+}
+/* Submission button specific styling */
+.login input[type="submit"]{
+
+    cursor: pointer;
+    font-size: 20px;
+    border-style: solid, segments(1, 2);
+    background: rgba(75,0,75,.8);
+    outline: none;
+    color: white;
+    font-weight: bold;
+    height: 60px;
+    border-radius: 20px;
+    width: 105%;
+}
+
+/* Styling for the "Forgot password" text */
+span.psw {
+  padding-top: 16px;
+  padding-left: 110px;
+  float: center;
+  font-size: 14px;
+  font-style: italic;
+}
+
+a{
+  color: white;
+}
+
+/*Styling for logo*/
+img{
+  margin: 5%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
